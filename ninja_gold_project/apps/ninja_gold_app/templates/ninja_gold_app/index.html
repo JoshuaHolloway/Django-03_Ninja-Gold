@@ -3,10 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Index!</title>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     {% load static %}		<!-- added this line -->
     <link rel="stylesheet" href="{% static 'app_name/css/style.css' %}">
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <script src="{% static 'app_name/js/script.js' %}"></script>
-
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <style type="text/css">
       body{
           background: #1005;
@@ -26,16 +30,21 @@
         height: 100px;
       }
     </style>
-
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   </head>
   <body>
-
       <img id="josh" src="{% static 'ninja_gold_app/images/lena.png' %}" />
+
+    <form action="/" method="post">
+      {% csrf_token %}
+      <p>Field One: <input name="one" type="text"></p>
+      <p>Field Two: <input name="two" type="text"></p>
+      <button type="submit">Submit</button>
+    </form>
 
       <!-- Modification of clock program described here: https://youtu.be/NJVJRFF-Y6U -->
       <div id="MyClockDisplay" class="clock"></div>
       <script type="text/javascript">
-
           function showTime(){
               var date = new Date();
               var h = date.getHours();   // 0 - 23
@@ -63,6 +72,81 @@
           }
           showTime();
       </script>
+    <!-- ------------------------------------------------------------------- -->
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-12">
+            <!-- JINJA-->
+            <p>Name in session is: {{request.session.name}}</p>
+        </div> <!-- col-12 -->
+      </div> <!-- row -->
 
+      <div class="row">
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4 class="card-title">Farm</h4>
+              <p class="card-text">(earns 10 - 20 golds)</p>
+              <form action="/process" method="post">
+                <input type="hidden" name="building" value="farm">
+                <button class="btn btn-primary">Find gold!</button>
+              </form>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+        </div> <!-- col-3 -->
+
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4 class="card-title">Cave</h4>
+              <p class="card-text">(earns 5 - 10 golds)</p>
+              <form action="/process" method="post">
+                <input type="hidden" name="building" value="cave">
+                <button class="btn btn-primary">Find gold!</button>
+              </form>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+        </div> <!-- col-3 -->
+
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4 class="card-title">House</h4>
+              <p class="card-text">(earns 2 - 5 golds)</p>
+              <form action="/process" method="post">
+                <input type="hidden" name="building" value="house">
+                <button class="btn btn-primary">Find gold!</button>
+              </form>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+        </div> <!-- col-3 -->
+
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4 class="card-title">Casino</h4>
+              <p class="card-text">(earns/takes 0 - 50 golds)</p>
+              <form action="/process" method="post">
+                <input type="hidden" name="building" value="casino">
+                <button class="btn btn-primary">Find gold!</button>
+              </form>
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+        </div> <!-- col-3 -->
+
+      </div> <!-- row -->
+      <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+      <div class="row">
+        <div class="col-12">
+          <h3>Activities:</h3>
+          <div class="card">
+            <div class="card-body">
+                <!-- JINJA-->
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+        </div> <!-- col-12 -->
+      </div> <!-- row -->
+    </div> <!-- jubotron -->
+    <!-- ------------------------------------------------------------------- -->
   </body>
 </html>
