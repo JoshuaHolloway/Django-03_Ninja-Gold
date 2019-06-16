@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47760326">
+    <splitter split-orientation="horizontal" split-proportion="0.48574752">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -39,8 +39,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="767">
-                  <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+                <state relative-caret-position="506">
+                  <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#59#0" expanded="true" />
                   </folding>
@@ -67,8 +67,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/templates/ninja_gold_app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="573">
-                  <caret line="79" column="61" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="61" />
+                <state relative-caret-position="467">
+                  <caret line="146" column="34" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
                   <folding>
                     <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -95,8 +95,8 @@
         <option value="$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/apps.py" />
         <option value="$PROJECT_DIR$/ninja_gold_project/ninja_gold_project/settings.py" />
         <option value="$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/urls.py" />
-        <option value="$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/templates/ninja_gold_app/index.html" />
         <option value="$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py" />
+        <option value="$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/templates/ninja_gold_app/index.html" />
       </list>
     </option>
   </component>
@@ -238,17 +238,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py</url>
-          <line>12</line>
+          <line>16</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py</url>
-          <line>11</line>
+          <line>15</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -289,22 +289,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/templates/ninja_gold_app/index.html">
+    <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="79" column="61" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="61" />
+        <state relative-caret-position="506">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py">
+    <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/templates/ninja_gold_app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="467">
+          <caret line="146" column="34" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
