@@ -36,12 +36,14 @@ def process(request):
     # request.session['activities'].append({"result": result, "color": color})
     request.session['gold_sum'] += gold
 
+    time = datetime.now()
+    time = time.strftime("%Y/%m/%d %I:%M %p")
     result = ''
     if gold < 0:
-        result = f'Lost {abs(gold)} golds from {building}, {datetime.now()}'
+        result = f'Lost {abs(gold)} golds from {building}, {time}'
         color = "text-danger"
     else:
-        result = f'Earned {abs(gold)} golds from {building}, {datetime.now()}'
+        result = f'Earned {abs(gold)} golds from {building}, {time}'
         color = "text-success"
 
     request.session['activities'].append({"result": result, "color": color})

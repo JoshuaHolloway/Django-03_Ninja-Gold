@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48574752">
+    <splitter split-orientation="horizontal" split-proportion="0.33158812">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -39,11 +39,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+                <state relative-caret-position="467">
+                  <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#59#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://C:/apps/Anaconda3/Lib/datetime.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="1899" column="41" selection-start-line="1899" selection-start-column="35" selection-end-line="1899" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -68,7 +77,7 @@
             <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/templates/ninja_gold_app/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="467">
-                  <caret line="146" column="34" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
+                  <caret line="147" column="69" selection-start-line="147" selection-start-column="69" selection-end-line="147" selection-end-column="69" />
                   <folding>
                     <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -289,10 +298,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/apps/Anaconda3/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1899" column="41" selection-start-line="1899" selection-start-column="35" selection-end-line="1899" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        <state relative-caret-position="467">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
@@ -302,7 +318,7 @@
     <entry file="file://$PROJECT_DIR$/ninja_gold_project/apps/ninja_gold_app/templates/ninja_gold_app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
-          <caret line="146" column="34" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
+          <caret line="147" column="69" selection-start-line="147" selection-start-column="69" selection-end-line="147" selection-end-column="69" />
           <folding>
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>

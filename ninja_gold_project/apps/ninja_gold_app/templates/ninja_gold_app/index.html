@@ -145,7 +145,7 @@
           <h3>Activities:</h3>
           <div class="card">
             <div class="card-body">
-              {% for activity in request.session.activities %}
+              {% for activity in request.session.activities reversed %}
                 <p class="card-text {{ activity.color }}">{{ activity.result }}</p>
               {% endfor %}
             </div> <!-- card-body -->
