@@ -88,6 +88,7 @@
               <h4 class="card-title">Farm</h4>
               <p class="card-text">(earns 10 - 20 golds)</p>
               <form action="/process" method="post">
+                {% csrf_token %}
                 <input type="hidden" name="building" value="farm">
                 <button class="btn btn-primary">Find gold!</button>
               </form>
@@ -101,6 +102,7 @@
               <h4 class="card-title">Cave</h4>
               <p class="card-text">(earns 5 - 10 golds)</p>
               <form action="/process" method="post">
+                {% csrf_token %}
                 <input type="hidden" name="building" value="cave">
                 <button class="btn btn-primary">Find gold!</button>
               </form>
@@ -114,6 +116,7 @@
               <h4 class="card-title">House</h4>
               <p class="card-text">(earns 2 - 5 golds)</p>
               <form action="/process" method="post">
+                {% csrf_token %}
                 <input type="hidden" name="building" value="house">
                 <button class="btn btn-primary">Find gold!</button>
               </form>
@@ -127,6 +130,7 @@
               <h4 class="card-title">Casino</h4>
               <p class="card-text">(earns/takes 0 - 50 golds)</p>
               <form action="/process" method="post">
+                {% csrf_token %}
                 <input type="hidden" name="building" value="casino">
                 <button class="btn btn-primary">Find gold!</button>
               </form>
